@@ -36,8 +36,8 @@ class App extends React.Component {
                
 
 
-                <Input onChange={this.getNumber} />
-                <Button onClick={this.checkOddEven} />
+                <Input />
+                <Button />
             </div>
 
 
