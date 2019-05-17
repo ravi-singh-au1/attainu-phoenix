@@ -2,6 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 class Input extends React.Component {
+    checkOddEven() {
+        if (this.state.number % 2 == 0) {
+            alert(" Even")
+        } else {
+            alert("not Even");
+        }
+    }
+
 
     render() {
         return (
@@ -46,14 +54,7 @@ getNumber(event) {
 }
 
 
-    checkOddEven() {
-        if (this.state.number % 2 == 0) {
-            alert(" Even")
-        } else {
-            alert("not Even");
-        }
-    }
-
+    
     render() {
 
         return (
