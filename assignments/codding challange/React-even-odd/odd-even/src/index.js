@@ -2,11 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 class Input extends React.Component {
-   inputChange(event)
-   {
-       console.log(event.target.value);
-   }
-    
+    inputChange(event) {
+        console.log(event.target.value);
+    }
+
 
     render() {
         return (
@@ -20,8 +19,7 @@ class Input extends React.Component {
     }
 }
 class Button extends React.Component {
-    buttonClick(event)
-    {
+    buttonClick(event) {
         console.log(event.target.value);
     }
     render() {
@@ -34,19 +32,24 @@ class Button extends React.Component {
 
 
 class App extends React.Component {
-   
 
-    
+    constructor(props) {
+        super(props);
+        this.state = {
+            title: "Odd even number"
+        }
+    }
+
     render() {
 
         return (
 
             <div className="container">
-               
+                <h1>{this.state.title}</h1>
 
 
-                <Input  />
-                <Button  />
+                <Input />
+                <Button />
             </div>
 
 
