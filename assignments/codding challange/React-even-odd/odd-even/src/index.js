@@ -2,14 +2,19 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 class Input extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            title: "Odd even number"
+        }
+    }    
     inputChange(event) {
         console.log(event.target.value);
     }
-
-
     render() {
         return (
             <div>
+                <h1>{this.state.title}</h1>
 
                 <input type="number" onChange={this.inputChange}></input>
                 <br />
@@ -33,19 +38,12 @@ class Button extends React.Component {
 
 class App extends React.Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            title: "Odd even number"
-        }
-    }
-
+    
     render() {
 
         return (
 
             <div className="container">
-                <h1>{this.state.title}</h1>
 
 
                 <Input />
