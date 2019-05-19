@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 class Input extends React.Component {
     constructor(props) {
         super(props);
+<<<<<<< HEAD
 
 
         this.state = {
@@ -18,6 +19,20 @@ class Input extends React.Component {
         this.setState({ number: event.target.value });
     }
 
+=======
+        this.state = {
+            title: "Odd even number"
+        }
+        this.state={
+            number:0
+        }
+    }
+changeNumber(event)
+{
+    this.setState({ number: event.target.value });
+}
+    
+>>>>>>> 988785aa9c9910c75d286f2c476913fd45356e37
 
     render() {
         return (
