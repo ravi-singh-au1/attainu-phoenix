@@ -6,5 +6,5 @@
 
 [Assignments](assignments/)
 
-[Coding Challenges](coding-challenges/)
+[Coding Challenges](codding challange/)
 
