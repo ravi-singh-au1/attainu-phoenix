@@ -2,12 +2,29 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 class Input extends React.Component {
+    constructor(props) {
+        super(props);
+
+
+        this.state = {
+            number: 0
+        }
+        this.state = {
+            title: "Odd even number"
+        }
+
+    }
+    changeNumber(event) {
+        this.setState({ number: event.target.value });
+    }
+
 
     render() {
         return (
             <div>
+                <h1>{this.state.title}</h1>
 
-                <input type="number" onChange={this.props.onChange}></input>
+                <input type="number" onChange={this.state.number}></input>
                 <br />
             </div>
         )
@@ -15,9 +32,12 @@ class Input extends React.Component {
     }
 }
 class Button extends React.Component {
+    buttonClick(event) {
+        console.log(event.target.value);
+    }
     render() {
         return (
-            <button className="btn btn-primary" onClick={this.props.onClick}>Submit</button>
+            <button className="btn btn-primary" onClick={this.buttonClick}>Submit</button>
         )
 
     }
@@ -25,28 +45,13 @@ class Button extends React.Component {
 
 
 class App extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
+    getNumber(event) {
 
-            number: 0
-        }
-        this.state = {
-            title: "even odd numner"
-        }
-
-        this.getNumber = this.getNumber.bind(this);
-        this.checkOddEven = this.checkOddEven.bind(this);
-
+        this.setState({ number: event.target.value });
     }
 
-getNumber(event) {
-       
-    this.setState({ number: event.target.value });
-}
 
-
-    checkOddEven() {
+    oddEven() {
         if (this.state.number % 2 == 0) {
             alert(" Even")
         } else {
@@ -54,16 +59,16 @@ getNumber(event) {
         }
     }
 
+
+
     render() {
 
         return (
 
             <div className="container">
-                <h1>{this.state.title}</h1>
-
 
                 <Input onChange={this.getNumber} />
-                <Button onClick={this.checkOddEven} />
+                <Button onClick={this.oddEven} />
             </div>
 
 
