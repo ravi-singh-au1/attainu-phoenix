@@ -6,5 +6,5 @@
 
 [Assignments](assignments/)
 
-[Coding Challenges](codding challange/)
+[Coding Challenges](https://github.com/ravics0027/attainu-phoenix/tree/master/assignments/codding%20challange)
 
