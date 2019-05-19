@@ -2,7 +2,7 @@
 
 [Portfolio](https://github.com/ravics0027/attainu-phoenix)
 
-[My Resume](resume/resume.pdf)
+[My Resume](resume/resume(1).pdf)
 
 [Assignments](assignments/)
 
