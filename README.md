@@ -1,3 +1,11 @@
-This repo contains assignments and notes for AttainU's first Cohort - The AttainU Phoenix.
+# Ravi kumar singh
 
-The students have to fork the repository, commit their assignments in the `assignments` folder and push. Then they have to submit a pull request against the master branch of attainu-phoenix.
+[Portfolio](https://shivamcs.github.io)
+
+[My Resume](resume/resume.pdf)
+
+[Assignments](assignments/)
+
+[Coding Challenges](coding-challenges/)
+
+[Shallow Dive Project Demo](https://www.dropbox.com/s/23doqrsmgp1246x/shivam_project1_demo.mp4?dl=0)
