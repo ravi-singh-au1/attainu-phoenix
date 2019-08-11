@@ -1,0 +1,46 @@
+[
+    {
+        "name" : "ravi shankar" ,
+        "age" :31 ,
+        "company" : "tcs",
+        "Langauage": "react.js"
+        
+    },
+
+    {
+        "name" : "mohit shankar" ,
+        "age" :31 ,
+        "company" : "tcs",
+        "Langauage": "react.js"
+        
+    },
+    {
+        "name" : "ravi" ,
+        "age" :31 ,
+        "company" : "tcs",
+        "Langauage": "react.js"
+        
+    },
+    {
+        "name" : "ravi2 shankar" ,
+        "age" :31 ,
+        "company" : "tcs",
+        "Langauage": "react.js"
+        
+    },
+    {
+        "name" : "ravi3 shankar" ,
+        "age" :31 ,
+        "company" : "tcs",
+        "Langauage": "javascript"
+        
+    },
+    {
+        "name" : "ravi s" ,
+        "age" :31 ,
+        "company" : "tcs",
+        "Langauage": "react.js"
+        
+    }
+
+]
