@@ -5,7 +5,6 @@ var numbers =[8,9,54,65,24,78,3];
 var sorted = numbers.slice().sort(function(a,b)
 {
     return a -b ;
-
 });
 var smallest = sorted[0];
 secondSmallest = sorted[1];

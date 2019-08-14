@@ -12,7 +12,6 @@ var isPowerOfTwo = function(num) {
     return false;
   }
 }
-
 console.log(isPowerOfTwo(32))
 
 console.log(isPowerOfTwo(9))
