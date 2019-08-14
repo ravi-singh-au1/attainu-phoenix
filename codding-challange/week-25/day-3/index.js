@@ -1,11 +1,12 @@
-function is_unique(str) {
+function is_uniqueString(str) {
     var obj = {};
     for(var z=0;z<str.length;++z) {
       var ch = str[z];
-      if(obj[ch]) return false; else obj[ch] = true;
+      if(obj[ch]) return false; 
+        else obj[ch] = true;
     }
     return true;
   }
   // test:
-  console.log(is_unique("ansal")); // true
-  console.log(is_unique("arkesh")); // false
+  console.log(is_uniqueString("ansal")); // false
+  console.log(is_uniqueString("arkesh")); // true
