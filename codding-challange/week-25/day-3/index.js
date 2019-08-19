@@ -7,5 +7,5 @@ function is_unique(str) {
     return true;
   }
   // test:
-  console.log(is_unique("ansal")); // true
-  console.log(is_unique("arkesh")); // false
+  console.log(is_unique("ansal")); // false
+  console.log(is_unique("arkesh")); // true
