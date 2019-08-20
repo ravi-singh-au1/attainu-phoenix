@@ -1,5 +1,3 @@
-var permArr = [],
-  usedChars = [];
 
 function Permutation(input) {
   var i, ch;
@@ -15,4 +13,7 @@ function Permutation(input) {
   }
   return permArr
 };
+var permArr = [],
+  usedChars = [];
+
 console.log(Permutation(["A", "B" , "C"]));
