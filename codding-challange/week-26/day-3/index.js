@@ -1,7 +1,7 @@
 
 // var result = console.log(Math.pow(2 ,15));
 
-function powerSumOfDigits(num , power){
+function powerSumDigit(num , power){
   
    var result = Math.pow(num , power);
     var sum = 0;
@@ -14,7 +14,7 @@ function powerSumOfDigits(num , power){
   }
   function main()
   {
-      var result =console.log(powerSumOfDigits(2,1000));
-      var result =console.log(powerSumOfDigits(2,15));
+      var result =console.log(powerSumDigit(2,1000));
+      var result =console.log(powerSumDigits(2,15));
   }
   main();
