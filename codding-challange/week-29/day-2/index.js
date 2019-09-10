@@ -12,6 +12,11 @@ function reverseDigit(num)
    
 
 }
-var num = 123;
+var num = 123 ;
+var num2 = 521;
+var num3 = 120 ;
+
 
 console.log(reverseDigit(num));
+console.log(reverseDigit(num2));
+console.log(reverseDigit(num3));
