@@ -24,7 +24,7 @@ function convertToRoman(num) {
   
     return str;
   }
-
+  console.log(convertToRoman(2));
  console.log(convertToRoman(9));
  console.log(convertToRoman(10));
  console.log(convertToRoman(1994));
