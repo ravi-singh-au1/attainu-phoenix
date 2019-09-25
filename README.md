@@ -1,6 +1,6 @@
 # Ravi kumar singh
 
-[Portfolio](https://github.com/ravi-singh-au1/ravi-singh-au1.github.io/blob/master/portfolio.html)
+[Portfolio](https://ravi-singh-au1.github.io/portfolio.html)
 
 [My Resume](https://github.com/ravics0027/attainu-phoenix/tree/master/Resume)
 
